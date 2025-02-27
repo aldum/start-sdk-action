@@ -32,7 +32,7 @@ runs:
     - name: Checkout start-os
       uses: actions/checkout@v4
       with:
-        repository: Start9Labs/start-os
+        repository: aldum/start-os
         ref: next/minor
         submodules: recursive
 
